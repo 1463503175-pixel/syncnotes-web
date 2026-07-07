@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+
+data/
+attachments/
+tmp/
+
+*.log
+notebook-start.log
+notebook-server.out.log
+notebook-server.err.log
+
+node_modules/
+.DS_Store
+Thumbs.db
