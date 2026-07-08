@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860">
+  <defs>
+    <style>
+      .bg{fill:#f5faf7}.card{fill:#fff;stroke:#cfe0d7;stroke-width:2}.head{fill:#0f2f25;font:700 34px 'Microsoft YaHei','Segoe UI',sans-serif}.sub{fill:#587066;font:20px 'Microsoft YaHei','Segoe UI',sans-serif}.title{fill:#12382d;font:700 24px 'Microsoft YaHei','Segoe UI',sans-serif}.text{fill:#40564d;font:18px 'Microsoft YaHei','Segoe UI',sans-serif}.small{fill:#60766d;font:15px 'Microsoft YaHei','Segoe UI',sans-serif}.green{fill:#198754}.line{stroke:#198754;stroke-width:4;fill:none;marker-end:url(#arrow)}.pill{fill:#e9f7ef;stroke:#a7d7bc;stroke-width:1.5}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#198754"/></marker>
+  </defs>
+  <rect class="bg" width="1280" height="860"/>
+  <text x="70" y="70" class="head">陈笃山记事本 EXE 使用流程</text>
+  <text x="70" y="108" class="sub">下载后可直接创建本地账号，自定义保存路径，并在原“设置”里配置 AI API 与模型。</text>
+
+  <rect x="70" y="160" width="250" height="150" rx="18" class="card"/>
+  <circle cx="105" cy="198" r="18" class="green"/><text x="99" y="205" fill="#fff" font-size="20" font-weight="700">1</text>
+  <text x="135" y="204" class="title">下载 EXE</text>
+  <text x="95" y="248" class="text">从 GitHub Release 下载</text>
+  <text x="95" y="278" class="small">Chen Dushan Notes 1.1.7.exe</text>
+  <path class="line" d="M330 235 H430"/>
+
+  <rect x="450" y="160" width="280" height="150" rx="18" class="card"/>
+  <circle cx="485" cy="198" r="18" class="green"/><text x="479" y="205" fill="#fff" font-size="20" font-weight="700">2</text>
+  <text x="515" y="204" class="title">首次设置</text>
+  <text x="475" y="248" class="text">创建本地账号和密码</text>
+  <text x="475" y="278" class="small">选择数据保存路径</text>
+  <path class="line" d="M740 235 H840"/>
+
+  <rect x="860" y="160" width="340" height="150" rx="18" class="card"/>
+  <circle cx="895" cy="198" r="18" class="green"/><text x="889" y="205" fill="#fff" font-size="20" font-weight="700">3</text>
+  <text x="925" y="204" class="title">进入记事本</text>
+  <text x="885" y="248" class="text">写日记、任务、备忘</text>
+  <text x="885" y="278" class="small">添加图片、录音、文档附件</text>
+  <path class="line" d="M1030 320 V395"/>
+
+  <rect x="770" y="420" width="430" height="190" rx="18" class="card"/>
+  <circle cx="805" cy="458" r="18" class="green"/><text x="799" y="465" fill="#fff" font-size="20" font-weight="700">4</text>
+  <text x="835" y="464" class="title">在“设置”里配置 AI</text>
+  <text x="795" y="508" class="text">API 地址、API Key</text>
+  <text x="795" y="538" class="text">文本模型、图片模型、音频模型</text>
+  <rect x="795" y="565" width="250" height="30" rx="15" class="pill"/>
+  <text x="812" y="586" class="small">不是右下角悬浮按钮</text>
+  <path class="line" d="M760 515 H660"/>
+
+  <rect x="70" y="420" width="560" height="300" rx="18" class="card"/>
+  <text x="100" y="468" class="title">保存路径结构</text>
+  <text x="100" y="515" class="text">你选择的保存路径</text>
+  <text x="120" y="555" class="small">├─ data</text>
+  <text x="150" y="585" class="small">├─ access.json：本地账号密码</text>
+  <text x="150" y="615" class="small">├─ notes.json：笔记数据</text>
+  <text x="150" y="645" class="small">├─ drafts.json：草稿</text>
+  <text x="150" y="675" class="small">└─ desktop-ai-config.json：AI 配置</text>
+  <text x="120" y="705" class="small">└─ attachments：图片、录音、文档等附件</text>
+
+  <rect x="70" y="760" width="1130" height="48" rx="16" fill="#eaf7ef" stroke="#bfe0cc"/>
+  <text x="95" y="791" class="text">提示：换电脑时，备份并复制整个保存路径即可迁移数据。</text>
+</svg>
