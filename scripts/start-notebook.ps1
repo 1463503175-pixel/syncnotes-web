@@ -4,8 +4,12 @@
 
 $ErrorActionPreference = "SilentlyContinue"
 
-$appDir = $PSScriptRoot
+$appDir = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")).Path
 $node = Join-Path $env:USERPROFILE ".cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
+$nodeCommand = Get-Command node.exe -ErrorAction SilentlyContinue
+if (-not (Test-Path -LiteralPath $node) -and $nodeCommand) {
+  $node = $nodeCommand.Source
+}
 $server = Join-Path $appDir "server.js"
 $log = Join-Path $appDir "notebook-start.log"
 $outLog = Join-Path $appDir "notebook-server.out.log"
