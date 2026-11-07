@@ -2,9 +2,9 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 
-const dataDir = process.env.SYNC_NOTES_DATA_DIR || "E:\\SyncNotes\\data";
+const dataDir = process.env.SYNC_NOTES_DATA_DIR || "E:\\SyncNotes\\web\\data";
 const dataFile = path.join(dataDir, "notes.json");
-const filesDir = process.env.SYNC_NOTES_ATTACHMENTS_DIR || "E:\\SyncNotes\\attachments";
+const filesDir = process.env.SYNC_NOTES_ATTACHMENTS_DIR || "E:\\SyncNotes\\web\\attachments";
 
 fs.mkdirSync(filesDir, { recursive: true });
 
