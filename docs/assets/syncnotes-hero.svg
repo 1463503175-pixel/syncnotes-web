@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="600" viewBox="0 0 1440 600" role="img" aria-labelledby="title description">
+<title id="title">SyncNotes — a calmer place for everything worth keeping</title>
+<desc id="description">Original illustrated concept of the SyncNotes local-first note workspace, not an actual app screenshot. It shows a note timeline, gallery and editor in a light green and ivory interface.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A1F1B"/><stop offset=".62" stop-color="#122C25"/><stop offset="1" stop-color="#193B31"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EDE5CA"/><stop offset="1" stop-color="#C9DFCE"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#77B69F" stop-opacity=".30"/><stop offset="1" stop-color="#77B69F" stop-opacity="0"/></radialGradient>
+ <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A5C6B5"/><stop offset=".55" stop-color="#E5E8CE"/><stop offset="1" stop-color="#87A8A3"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-40%" width="170%" height="190%"><feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#07150F" flood-opacity=".38"/></filter>
+ <pattern id="mesh" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#E1EEE7" stroke-opacity=".055"/></pattern>
+ <clipPath id="outer"><rect width="1440" height="600" rx="22"/></clipPath>
+ <clipPath id="window"><rect x="620" y="77" width="764" height="456" rx="17"/></clipPath>
+</defs>
+<g clip-path="url(#outer)">
+ <rect width="1440" height="600" fill="url(#bg)"/>
+ <rect width="1440" height="600" fill="url(#mesh)"/>
+ <ellipse cx="1210" cy="220" rx="440" ry="390" fill="url(#glow)"/>
+ <circle cx="228" cy="500" r="256" fill="none" stroke="#CFEADB" stroke-opacity=".07"/>
+ <circle cx="228" cy="500" r="190" fill="none" stroke="#CFEADB" stroke-opacity=".07"/>
+ <g font-family="Arial, Helvetica, sans-serif">
+   <g transform="translate(70 74)">
+     <rect width="42" height="42" rx="12" fill="#D9E9DA"/>
+     <path d="M11 14c7-8 13 8 20 0M11 23c7-8 13 8 20 0M11 32c7-8 13 8 20 0" stroke="#245645" fill="none" stroke-width="3" stroke-linecap="round"/>
+     <text x="56" y="30" font-size="25" font-weight="700" fill="#E6EFE9" letter-spacing="-.5">syncnotes</text>
+   </g>
+   <text x="69" y="219" fill="#F3F5ED" font-size="62" font-weight="700" letter-spacing="-2.2">A home for</text>
+   <text x="69" y="292" fill="#F3F5ED" font-size="62" font-weight="700" letter-spacing="-2.2">your thoughts.</text>
+   <rect x="71" y="316" width="61" height="3" rx="1.5" fill="#A8D9C1"/>
+   <text x="70" y="374" fill="#C3D8CB" font-size="22">写下来，留得住。</text>
+   <text x="70" y="411" fill="#A8C5B6" font-size="17">Notes  /  Memories  /  Attachments</text>
+   <rect x="70" y="458" width="184" height="42" rx="21" fill="#DAEBDD"/>
+   <text x="101" y="484" font-size="14" font-weight="700" fill="#1C4837" letter-spacing=".5">LOCAL FIRST   /   PRIVATE</text>
+   <text x="70" y="548" font-size="12.5" letter-spacing="1.7" fill="#A2BDB0">CRAFTED FOR EVERYDAY THOUGHTS</text>
+ </g>
+ <g filter="url(#shadow)">
+ <rect x="620" y="77" width="764" height="456" rx="17" fill="#F5F7F1"/>
+ <rect x="620" y="77" width="764" height="456" rx="17" fill="none" stroke="#E2EFE5" stroke-width="1.3"/>
+ </g>
+ <g clip-path="url(#window)" font-family="Arial, Helvetica, sans-serif">
+  <rect x="620" y="77" width="764" height="47" fill="#FDFDF9"/>
+  <rect x="620" y="124" width="161" height="409" fill="#EDF2EB"/>
+  <line x1="620" y1="124" x2="1384" y2="124" stroke="#E2EAE2"/>
+  <line x1="781" y1="124" x2="781" y2="533" stroke="#DCE8DE"/>
+  <circle cx="643" cy="101" r="4.2" fill="#D3ABA0"/>
+  <circle cx="660" cy="101" r="4.2" fill="#E6CF91"/>
+  <circle cx="677" cy="101" r="4.2" fill="#9CC6A7"/>
+  <text x="832" y="106" font-size="14" fill="#6D8276" font-weight="600">SyncNotes / Workspace</text>
+  <rect x="1314" y="89" width="48" height="24" rx="12" fill="#EBF3EC"/>
+  <circle cx="1329" cy="101" r="5" fill="#5A9470"/>
+  <text x="643" y="167" fill="#587064" font-size="12" font-weight="700" letter-spacing="1.5">LIBRARY</text>
+  <rect x="633" y="187" width="136" height="37" rx="9" fill="#D9E8DB"/>
+  <rect x="649" y="198" width="16" height="15" rx="3" fill="#559172"/>
+  <text x="672" y="211" font-size="14" fill="#235341" font-weight="700">All notes</text>
+  <text x="653" y="254" font-size="13.5" fill="#5F796B">Journal</text>
+  <text x="653" y="290" font-size="13.5" fill="#5F796B">Ideas</text>
+  <text x="653" y="326" font-size="13.5" fill="#5F796B">Resources</text>
+  <text x="653" y="362" font-size="13.5" fill="#5F796B">Favorites</text>
+  <line x1="642" y1="405" x2="757" y2="405" stroke="#CEDFD2"/>
+  <rect x="647" y="446" width="17" height="17" rx="5" fill="#9BC2A3"/>
+  <text x="672" y="459" font-size="13" fill="#4F7562">Private workspace</text>
+  <text x="812" y="165" font-size="14" fill="#658073" letter-spacing="1.2">MONDAY, NOVEMBER 09</text>
+  <text x="811" y="203" font-size="29" font-weight="700" fill="#203E32" letter-spacing="-.8">Your moments, in order.</text>
+  <rect x="812" y="226" width="334" height="114" rx="13" fill="#FFFFFF" stroke="#E0EAE1"/>
+  <rect x="830" y="242" width="5" height="32" rx="2.5" fill="#70A889"/>
+  <text x="846" y="256" font-size="12" fill="#719382">09:24 · JOURNAL</text>
+  <text x="846" y="280" font-size="17" font-weight="700" fill="#28483B">Small things worth keeping</text>
+  <text x="830" y="303" font-size="12.5" fill="#799084">A few thoughts, a quiet morning...</text>
+  <rect x="830" y="317" width="63" height="14" rx="7" fill="#E9F2EA"/>
+  <text x="841" y="328" font-size="10.5" fill="#5E8870">Personal</text>
+  <rect x="812" y="351" width="334" height="153" rx="13" fill="#FFFFFF" stroke="#E0EAE1"/>
+  <text x="831" y="376" font-size="12" fill="#719382">YESTERDAY · COLLECTION</text>
+  <text x="831" y="402" font-size="17" font-weight="700" fill="#28483B">Captured in passing</text>
+  <rect x="831" y="415" width="93" height="70" rx="8" fill="url(#cover)"/>
+  <path d="M833 475L856 442L872 461L887 435L921 480Z" fill="#557F70" fill-opacity=".45"/>
+  <circle cx="899" cy="430" r="8" fill="#F6F4D7" fill-opacity=".7"/>
+  <rect x="935" y="415" width="91" height="70" rx="8" fill="#D6DDD5"/>
+  <path d="M936 476L966 437L986 450L1021 473" fill="none" stroke="#92B6A7" stroke-width="8" stroke-linecap="round"/>
+  <rect x="1037" y="415" width="91" height="70" rx="8" fill="#E8E5D9"/>
+  <path d="M1053 434h59M1053 446h59M1053 458h46M1053 470h52" stroke="#9DAE9E" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <rect x="1162" y="150" width="192" height="353" rx="13" fill="#F9FAF5" stroke="#DFE9DE"/>
+  <text x="1181" y="176" font-size="13" font-weight="700" fill="#4D6C5C">Daily overview</text>
+  <rect x="1180" y="190" width="156" height="66" rx="10" fill="#E7F0E5"/>
+  <circle cx="1207" cy="221" r="15" fill="#E9C98E"/>
+  <circle cx="1214" cy="214" r="12" fill="#E7F0E5"/>
+  <text x="1234" y="217" font-size="19" font-weight="700" fill="#274D3D">21°</text>
+  <text x="1234" y="237" font-size="11.5" fill="#678371">Today</text>
+  <text x="1181" y="284" font-size="12" fill="#789082">TO DO</text>
+  <circle cx="1189" cy="310" r="7.5" fill="none" stroke="#79A88A" stroke-width="1.5"/>
+  <text x="1205" y="315" font-size="12.2" fill="#577365">Write a little</text>
+  <circle cx="1189" cy="342" r="7.5" fill="#83B297"/>
+  <path d="M1185 342l3 3 6-7" fill="none" stroke="#FFF" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="1205" y="347" font-size="12.2" fill="#577365">Review notes</text>
+  <line x1="1181" y1="373" x2="1334" y2="373" stroke="#E0E9E0"/>
+  <text x="1181" y="400" font-size="12" fill="#789082">QUICK NOTE</text>
+  <rect x="1180" y="416" width="156" height="66" rx="10" fill="#FFF" stroke="#E0E8E0"/>
+  <text x="1191" y="436" font-size="11.6" fill="#A0B0A3">Capture a thought...</text>
+  <path d="M1192 451h127M1192 462h86" stroke="#E4EBE4" stroke-width="3" stroke-linecap="round"/>
+ </g>
+ <g font-family="Arial, Helvetica, sans-serif">
+ <text x="1060" y="563" fill="#B9D5C6" font-size="12.5" letter-spacing="1.15">PRODUCT INTERFACE ILLUSTRATION · NOT A SCREENSHOT</text>
+ </g>
+ <rect x=".5" y=".5" width="1439" height="599" rx="21.5" fill="none" stroke="#A8C8B5" stroke-opacity=".19"/>
+</g>
+</svg>
