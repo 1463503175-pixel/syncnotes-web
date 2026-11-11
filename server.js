@@ -96,7 +96,14 @@ function cookieValue(req, name) {
 
 function checkAuth(req, res) {
   const cfg = accessConfig();
-  if (!cfg) return true;
+  if (!cfg) {
+    // Allow first-run local setup, but never expose notes or API keys to remote clients.
+    const address = String(req.socket && req.socket.remoteAddress || "");
+    if (address === "127.0.0.1" || address === "::1" || address === "::ffff:127.0.0.1") return true;
+    res.writeHead(403, { "Content-Type": "text/plain; charset=utf-8" });
+    res.end("Remote access requires an access.json account configuration");
+    return false;
+  }
   const cookieToken = cookieValue(req, "chen_notes_session");
   if (cookieToken && cookieToken === sessionToken(cfg)) return true;
   const header = req.headers.authorization || "";
