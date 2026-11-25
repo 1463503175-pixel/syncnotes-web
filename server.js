@@ -6,6 +6,7 @@ const crypto = require("crypto");
 const { execFileSync } = require("child_process");
 
 const root = __dirname;
+loadLocalEnv();
 const publicDir = path.join(root, "public");
 const mobileDir = path.resolve(root, "..", "..", "app", "mobile-web");
 const dataDir = process.env.SYNC_NOTES_DATA_DIR || "E:\\SyncNotes\\web\\data";
@@ -41,7 +42,6 @@ function loadLocalEnv() {
   }
 }
 
-loadLocalEnv();
 
 fs.mkdirSync(dataDir, { recursive: true });
 fs.mkdirSync(tempDir, { recursive: true });
